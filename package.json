@@ -1,0 +1,27 @@
+{
+  "name": "go-hyperclick",
+  "author": {
+    "name": "Zhengyi Lai",
+    "email": "laizhyi@gmail.com"
+  },
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "A hyperclick provider for golang.",
+  "repository": "https://github.com/zheng1/go-hyperclick",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1"
+  },
+  "package-deps": [
+    "navigator-godef"
+  ],
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  }
+}
