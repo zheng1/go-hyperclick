@@ -15,7 +15,7 @@
     "atom-package-deps": "^4.0.1"
   },
   "package-deps": [
-    "navigator-godef"
+    "navigator-go"
   ],
   "providedServices": {
     "hyperclick.provider": {
