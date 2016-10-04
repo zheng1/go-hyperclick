@@ -14,8 +14,11 @@
   "dependencies": {
     "atom-package-deps": "^4.0.1"
   },
+  "devDependencies": {
+    "standard": "^8.3.0"
+  },
   "package-deps": [
-    "navigator-godef"
+    "navigator-go"
   ],
   "providedServices": {
     "hyperclick.provider": {
@@ -23,5 +26,11 @@
         "0.0.0": "getProvider"
       }
     }
+  },
+  "standard": {
+    "globals": [
+      "atom",
+      "waitsForPromise"
+    ]
   }
 }
